@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main_screen_container{
+    background-image: url(../images/first.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.main_image{
+    height: 100%;
+}
