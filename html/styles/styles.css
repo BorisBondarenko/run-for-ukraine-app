@@ -15,9 +15,24 @@
 }
 
 .data_container{
+
+    display: flex;
     width: 900px;
     padding: 150px;
     padding-top: 100px;
+}
+
+.right_side{
+    margin-left: 150px;
+    margin-top: 63px;
+}
+
+.next_event{
+    color: black;
+    font-size: 30px;
+    font-family: "roboto";
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .upper_container{
@@ -25,17 +40,18 @@
 }
 
 .czech_logo{
-    margin-top: 73px;
+    margin-top: 76px;
     margin-left: 18px;
     box-shadow: 0px 0px 5px #111111;
-    width: 42px;
+    width: 36px;
 }
-
 
 .title_background{
     background-color: white;
     width: fit-content;
+    box-shadow: 0px 0px 15px #4a4a4a;
 }
+
 .title_text{
     color: black;
     font-size: 38px;
@@ -44,9 +60,10 @@
     padding-left: 25px;
     padding-right: 25px;
 }
+
 .around_CZ{
     color: white;
-    text-shadow: 1px 1px 10px #111111;
+    text-shadow: 0px 0px 15px #111111;
     font-size: 35px;
     font-family: "roboto";
     padding-top: 10px;
