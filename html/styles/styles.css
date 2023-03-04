@@ -20,6 +20,18 @@
     padding-top: 100px;
 }
 
+.upper_container{
+    display: flex;
+}
+
+.czech_logo{
+    margin-top: 73px;
+    margin-left: 18px;
+    box-shadow: 0px 0px 5px #111111;
+    width: 42px;
+}
+
+
 .title_background{
     background-color: white;
     width: fit-content;
@@ -37,8 +49,8 @@
     text-shadow: 1px 1px 10px #111111;
     font-size: 35px;
     font-family: "roboto";
-    margin-top: 10px;
-    margin-left: 25px;
+    padding-top: 10px;
+    padding-left: 25px;
 }
 
 .description{
