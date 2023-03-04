@@ -13,3 +13,41 @@
 .main_image{
     height: 100%;
 }
+
+.data_container{
+    width: 900px;
+    padding: 150px;
+    padding-top: 100px;
+}
+
+.title_background{
+    background-color: white;
+    width: fit-content;
+}
+.title_text{
+    color: black;
+    font-size: 38px;
+    font-family: "roboto";
+    padding: 1px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.around_CZ{
+    color: white;
+    text-shadow: 1px 1px 10px #111111;
+    font-size: 35px;
+    font-family: "roboto";
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.description{
+    color: white;
+    text-shadow: 1px 1px 5px #111111;
+    font-size: 18px;
+    font-family: "roboto";
+    margin-top: 27px;
+    width: 450px;
+}
+
+
