@@ -35,6 +35,14 @@
     padding-right: 16px;
 }
 
+.information_text{
+        color: white;
+    font-size: 18px;
+    font-family: "roboto";
+    text-shadow: 0px 0px 15px #111111;
+}
+
+
 .upper_container{
     display: flex;
 }
