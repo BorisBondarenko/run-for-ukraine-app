@@ -35,9 +35,39 @@
     padding-right: 16px;
 }
 
+
+.info_element{
+    display: flex;
+    margin-top: 18px;
+}
+
+.text_side{
+    display: flow-root;
+    margin-left: 15px;
+}
+
+.place_icon{
+    width: 50px;
+}
+
+.distance_icon{
+    width: 50px;
+}
+
+.watch_icon{
+   width: 34px;
+}
+
+.information_pointer{
+    color: white;
+    font-size: 16px;
+    font-family: "roboto";
+    text-shadow: 0px 0px 15px #111111;
+}
+
 .information_text{
-        color: white;
-    font-size: 18px;
+    color: white;
+    font-size: 25px;
     font-family: "roboto";
     text-shadow: 0px 0px 15px #111111;
 }
