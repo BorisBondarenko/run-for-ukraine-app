@@ -24,7 +24,7 @@
 
 .right_side{
     margin-left: 150px;
-    margin-top: 63px;
+    margin-top: 13px;
 }
 
 .next_event{
@@ -46,8 +46,15 @@
     margin-left: 15px;
 }
 
-.place_icon{
+.icon_container{
     width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.place_icon{
+    width: 46px;
 }
 
 .distance_icon{
@@ -88,6 +95,13 @@
     background-color: white;
     width: fit-content;
     box-shadow: 0px 0px 15px #4a4a4a;
+}
+
+.next_event_background{
+    background-color: white;
+    width: fit-content;
+    box-shadow: 0px 0px 15px #4a4a4a;
+    margin-bottom: 30px;
 }
 
 .title_text{
