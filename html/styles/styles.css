@@ -64,15 +64,15 @@
 }
 
 .place_icon{
-    width: 46px;
+    width: 38px;
 }
 
 .distance_icon{
-    width: 50px;
+    width: 46px;
 }
 
 .watch_icon{
-   width: 34px;
+   width: 30px;
 }
 
 .information_pointer{
@@ -92,7 +92,7 @@
 /*Buttons block*/
 .buttons_container{
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
     margin-top: 35px;
 }
 .participate_button{
@@ -100,39 +100,41 @@
     justify-content: center;
     align-items: center;
 
-    width: fit-content;
-    height: 32px;
+    width: 240px;
+    height: 38px;
 
-    background-color: white;
-    box-shadow: 0px 0px 14px #111111;
-    border: 1px solid white;
-    border-radius: 4px;
+    background: linear-gradient(185.09deg, #2BB2FF 4.09%, #FDF426 84.09%);
+    box-shadow: 0px 0px 12px #111111;
+    border-radius: 6px;
+}
+
+.but_arrow{
+    height: 14px;
+    margin-right: 10px;
 }
 
 .button_name{
-    padding-inline: 15px;
     text-decoration: none;
     color: black;
     font-family: "Roboto";
-    font-size: 15px;
+    font-size: 16px;
 }
-
 
 .schedule_button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    width: fit-content;
-    height: 32px;
-    margin-left: 35px;
+    height: 38px;
+    margin-top: 12px;
+    margin-left: 10px;
 
-    background-color: white;
-    box-shadow: 0px 0px 14px #111111;
-    border: 1px solid white;
-    border-radius: 4px;
 }
 
+.schedule_button_name{
+    padding-inline: 18px;
+    color: white;
+    text-shadow: 0px 0px 14px #111111;
+    font-family: "Roboto";
+    font-size: 16px;
+}
 
 /*Left side block*/
 
