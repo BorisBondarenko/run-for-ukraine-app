@@ -39,8 +39,23 @@
     height: 160px
 }
 
-.change_language{
+
+.language_box {
+    width: 146px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.country_flag{
+    width: 24px;
+    box-shadow: 0px 0px 15px #111111;
+}
+
+.language_name{
     color: white;
+    font-family: "Roboto";
+    font-size: 14px;
+    text-shadow: 0px 0px 12px #111111;
     text-decoration: none;
 }
 
