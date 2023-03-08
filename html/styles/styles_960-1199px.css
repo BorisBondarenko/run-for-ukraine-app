@@ -1,6 +1,108 @@
-.main_image{
+/* header block*/
+
+
+
+/* data_block*/
+
+.data_container{
+
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    width: 800px;
+    padding-top: 80px;
+
+}
+
+.title_text{
+    font-size: 28px;
+    padding: 1px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.around_CZ{
+    font-size: 28px;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+.czech_logo {
+    margin-top: 54px;
+    margin-left: 18px;
+    box-shadow: 0px 0px 5px #111111;
+    width: 30px;
+}
+
+.description {
+    font-size: 14px;
+    margin-top: 27px;
+    width: 370px;
+}
+
+
+
+/* right side */
+
+.right_side {
+    margin-left: 90px;
+    margin-top: 13px;
+}
+
+.next_event {
+    font-size: 22px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+.info_element {
+    display: flex;
+    margin-top: 12px;
+}
+
+.icon_container {
+    width: 44px;
+}
+
+.text_side {
+    margin-left: 6px;
+    width: 270px;
+}
+
+
+.information_pointer {
+    font-size: 14px;
+}
+
+.information_text {
+    font-size: 17px;
+}
+
+.place_icon {
+    width: 34px;
+}
+
+.distance_icon {
+    width: 40px;
+}
+
+.watch_icon {
+    width: 26px;
+}
+
+.participate_button {
+    width: 220px;
+    height: 36px;
+}
+
+.but_arrow {
+    height: 13px;
+    margin-right: 10px;
+}
+
+.button_name {
+    font-size: 15px;
+}
+
+.schedule_button_name{
+    display: none;
 }
