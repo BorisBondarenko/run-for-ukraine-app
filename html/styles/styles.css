@@ -66,6 +66,7 @@
 .data_block{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-image: url(../images/first.jpg);
     background-size: cover;
     background-position: center;
@@ -74,12 +75,10 @@
 }
 
 .data_container{
-
     width: 1000px;
     display: flex;
     justify-content: space-between;
     padding-left: 50px;
-    padding-top: 135px;
 }
 
 

@@ -27,8 +27,6 @@
 
     max-width: 800px;
     min-width: 800px;
-    padding-top: 80px;
-
 }
 
 .title_text{
@@ -62,7 +60,6 @@
 /* right side */
 
 .right_side {
-    margin-left: 90px;
     margin-top: 13px;
 }
 
