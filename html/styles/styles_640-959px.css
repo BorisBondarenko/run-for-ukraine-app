@@ -1,6 +1,56 @@
-.main_image{
+.data_block {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    background-image: url(../images/first.jpg);
+    background-size: cover;
+    background-position: center;
+    height: fit-content;
+}
+
+
+.data_container {
+    width: 550px;
+    display: flow-root;
+    padding-bottom: 100px;
+    padding-top: 100px
+}
+
+/* left side (MAIN TITLE)*/
+
+.title_text {
+    color: black;
+    font-size: 28px;
+}
+
+
+.around_CZ {
+    color: white;
+    font-size: 26px;
+    font-family: "roboto";
+    padding-top: 6px;
+    padding-left: 25px;
+}
+
+.czech_logo {
+    margin-top: 54px;
+    margin-left: 12px;
+    box-shadow: 0px 0px 5px #111111;
+    width: 30px;
+}
+
+.description {
+    color: white;
+    text-shadow: 1px 1px 5px #111111;
+    font-size: 16px;
+    font-family: "roboto";
+    margin-top: 27px;
+    width: 460px;
+}
+
+
+/* right side*/
+
+.right_side {
+    margin-top: 62px;
 }
