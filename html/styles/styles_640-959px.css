@@ -1,3 +1,38 @@
+/* header*/
+
+.header {
+    display: flex;
+    margin-top: 30px;
+    width: 588px;
+    height: 100px;
+}
+
+.header {
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
+.header_element {
+    font-size: 13px;
+}
+
+.language_box {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.language_name {
+    font-size: 12px;
+}
+
+.country_flag {
+    width: 18px;
+}
+
+
+/* data block*/
+
 .data_block {
     display: flex;
     justify-content: center;
@@ -53,4 +88,8 @@
 
 .right_side {
     margin-top: 62px;
+}
+
+.next_event {
+    font-size: 26px;
 }

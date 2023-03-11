@@ -48,7 +48,6 @@
 
 .elements_box{
     display: flex;
-    justify-content: space-between;
     width: fit-content;
 }
 
